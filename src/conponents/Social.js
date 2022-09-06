@@ -7,7 +7,7 @@ import {
 const SocialCard = () => (
   <div className="social-card">
     <a
-      className="btn email-btn"
+      className="social-icon email-btn"
       href="https://twitter.com/PraisesPJMT"
       target="_blank"
       rel="noreferrer"
@@ -18,7 +18,7 @@ const SocialCard = () => (
       />
     </a>
     <a
-      className="btn email-btn"
+      className="social-icon email-btn"
       href="https://web.facebook.com/praises.musa"
       target="_blank"
       rel="noreferrer"
@@ -29,7 +29,7 @@ const SocialCard = () => (
       />
     </a>
     <a
-      className="btn email-btn"
+      className="social-icon email-btn"
       href="https://www.instagram.com/praisespjmt/"
       target="_blank"
       rel="noreferrer"
@@ -40,7 +40,7 @@ const SocialCard = () => (
       />
     </a>
     <a
-      className="btn email-btn"
+      className="social-icon email-btn"
       href="https://github.com/PraisesPJMT"
       target="_blank"
       rel="noreferrer"

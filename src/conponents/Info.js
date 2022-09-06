@@ -17,6 +17,7 @@ const InfoCard = () => (
           I have great passion for UI creation, effect,
           animation and dynamic user experiences.
           <br />
+          <br />
           I try to keep up with security and best practices,
           and am always looking for new things to learn.
         </p>
@@ -26,12 +27,11 @@ const InfoCard = () => (
           Interest
         </h3>
         <p className="description">
-          I&apos;m interested in both Front-End and Back-End spectrum.
-          I am also interested in working on ambitious projects with
+          I&apos;m interested in working on ambitious projects with
           positive people and goal oriented companies.
           <br />
-          I derive great pleasure in watching Manchester United loose
-          because I am a fan of Liverpool FC. I love swimming,
+          <br />
+          I am a Liverpool FC fan. I love swimming,
           watching TV series and travelling.
         </p>
       </div>

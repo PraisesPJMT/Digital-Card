@@ -4,7 +4,7 @@ import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Header = () => (
-  <>
+  <div className="header">
     <h1 className="title">
       Praises Musa Tula
     </h1>
@@ -45,7 +45,7 @@ const Header = () => (
         <span>LinkedIn</span>
       </a>
     </div>
-  </>
+  </div>
 );
 
 export default Header;

@@ -1,1 +1,24 @@
 /* Page Styles */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #23252c;
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+#root {
+  width: 90%;
+  background: #1a1b21;
+  border-radius: 20px;
+}
