@@ -65,11 +65,11 @@ const InfoCard = () => (
         className="react stack-icon"
         icon={faReact}
       />
+      <FontAwesomeIcon
+        className="git stack-icon"
+        icon={faGitAlt}
+      />
     </div>
-    <FontAwesomeIcon
-      className="git stack-icon"
-      icon={faGitAlt}
-    />
   </div>
 );
 

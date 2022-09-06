@@ -17,7 +17,7 @@ const Header = () => (
       target="_blank"
       rel="noreferrer"
     >
-      Praises-Tula-Portfolio
+      https://praises-tula.com/
     </a>
     <div className="quick-link">
       <a
