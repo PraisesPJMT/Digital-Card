@@ -9,8 +9,10 @@ const App = () => (
   <>
     <ProfilePicture />
     <Header />
-    <InfoCard />
-    <SocialCard />
+    <div className="container">
+      <InfoCard />
+      <SocialCard />
+    </div>
   </>
 );
 

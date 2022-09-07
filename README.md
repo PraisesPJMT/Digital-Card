@@ -3,7 +3,17 @@
 > Hello!! I am Praises Tula and this is my Digital Card.
 
 ## Preview
-![App Preview](src/assets/app-preview.png)
+**Mobile Portrait Preview**
+
+![App Preview](src/assets/mobile-portrait.png)
+
+**Mobile Landscape Preview**
+
+![App Preview](src/assets/desktop.png)
+
+**Desktop Preview**
+
+![App Preview](src/assets/mobile-landscape.png)
 
 ## Built With (Linter)
 
@@ -25,7 +35,8 @@ The following applications are required to be installed for the project to run!
   - If the app is not opened immediately, then open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ## App Deployment
-App deployment is coming soon...
+[Praises Tula - Digital Card](https://PraisesPJMT.github.io/Digital-Card/)<br>
+**Link:** [https://PraisesPJMT.github.io/Digital-Card/](https://PraisesPJMT.github.io/Digital-Card/)
 
 
 ## Authors
