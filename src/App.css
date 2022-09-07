@@ -80,19 +80,31 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.8rem;
   padding-left: 0.5rem;
+}
+
+.stack-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.8rem;
 }
 
 .stack-icon {
   font-size: 2rem;
-
-  /* color: #f3bf99; */
   color: #f3bf99;
 }
 
 .ruby {
   rotate: -45deg;
+}
+
+.stack-title {
+  display: none;
+}
+
+.stack-name {
+  display: none;
 }
 
 /* Social Styles */

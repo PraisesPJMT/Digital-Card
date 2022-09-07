@@ -37,38 +37,83 @@ const InfoCard = () => (
       </div>
     </div>
     <div className="stack">
-      <FontAwesomeIcon
-        className="html stack-icon"
-        icon={faHtml5}
-      />
-      <FontAwesomeIcon
-        className="css stack-icon"
-        icon={faCss3Alt}
-      />
-      <FontAwesomeIcon
-        className="javascript stack-icon"
-        icon={faSquareJs}
-      />
-      <FontAwesomeIcon
-        className="python stack-icon"
-        icon={faPython}
-      />
-      <FontAwesomeIcon
-        className="ruby stack-icon"
-        icon={faGem}
-      />
-      <FontAwesomeIcon
-        className="c-program stack-icon"
-        icon={faCuttlefish}
-      />
-      <FontAwesomeIcon
-        className="react stack-icon"
-        icon={faReact}
-      />
-      <FontAwesomeIcon
-        className="git stack-icon"
-        icon={faGitAlt}
-      />
+      <h3 className="sub--title stack-title">
+        Stack
+      </h3>
+      <div className="stack-container">
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="html stack-icon"
+            icon={faHtml5}
+          />
+          <span className="stack-name">
+            HTML5
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="css stack-icon"
+            icon={faCss3Alt}
+          />
+          <span className="stack-name">
+            CSS3
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="javascript stack-icon"
+            icon={faSquareJs}
+          />
+          <span className="stack-name">
+            JavaScript
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="python stack-icon"
+            icon={faPython}
+          />
+          <span className="stack-name">
+            Python
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="ruby stack-icon"
+            icon={faGem}
+          />
+          <span className="stack-name">
+            Ruby
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="c-program stack-icon"
+            icon={faCuttlefish}
+          />
+          <span className="stack-name">
+            C-Program
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="react stack-icon"
+            icon={faReact}
+          />
+          <span className="stack-name">
+            React
+          </span>
+        </div>
+        <div className="stack-wrap">
+          <FontAwesomeIcon
+            className="git stack-icon"
+            icon={faGitAlt}
+          />
+          <span className="stack-name">
+            Git
+          </span>
+        </div>
+      </div>
     </div>
   </div>
 );
