@@ -22,3 +22,15 @@ a {
   background: #1a1b21;
   border-radius: 20px;
 }
+
+@media (min-width: 768px) {
+  body {
+    height: 100vh;
+  }
+
+  #root {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
+}

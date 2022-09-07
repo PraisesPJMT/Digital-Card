@@ -87,7 +87,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 0.8rem;
+  gap: 1rem;
 }
 
 .stack-icon {
@@ -148,5 +148,122 @@
     display: block;
     font-size: 0.5rem;
     text-align: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-image {
+    width: 100%;
+    border-radius: 20px 0 0 0;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .container {
+    grid-column: 1 / 3;
+    grid-row: 2;
+  }
+
+  .stack {
+    padding: 0.9rem 0;
+  }
+}
+
+@media (min-width: 1000px) {
+  .header {
+    grid-column: 1 / 2;
+    grid-row: 2;
+  }
+
+  .container {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    height: 100%;
+    position: relative;
+  }
+
+  .information {
+    height: 85%;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .infoCard {
+    width: 60%;
+    max-width: 350px;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .sub--title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+
+  .social-card {
+    border-radius: 0 0 20px 0;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 93%;
+    height: 10%;
+    align-items: center;
+  }
+
+  .stack {
+    gap: 1.5rem;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    padding: 0.5rem;
+    border-radius: 1.5rem;
+  }
+
+  .stack-container {
+    gap: 1.5rem 1.3rem;
+  }
+
+  .stack-icon {
+    font-size: 2rem;
+  }
+
+  .stack-name {
+    font-size: 0.7rem;
+  }
+}
+
+@media (min-width: 1060px) {
+  .sub--title {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.9rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .stack-icon {
+    font-size: 3rem;
+  }
+
+  .infoCard {
+    width: 60%;
+    max-width: none;
+    justify-content: start;
+  }
+
+  .stack-name {
+    font-size: 0.8rem;
+  }
+
+  .description {
+    font-size: 1.1rem;
   }
 }
